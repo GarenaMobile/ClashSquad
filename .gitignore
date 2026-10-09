@@ -40,3 +40,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# scratch & raw large assets
+/scratch/
+/bones_list.json
+/indominus_rex.glb
