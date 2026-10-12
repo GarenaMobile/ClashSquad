@@ -1,16 +1,16 @@
 {
-  "name": "clashsquad",
-  "version": "0.1.0",
+  "name": "grand-turismo-racing",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "typecheck": "tsc --noEmit",
+    "test": "tsx tests/sim.test.ts && tsx tests/collision.test.ts && tsx tests/race.test.ts && tsx tests/net.test.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.3",
-    "@types/three": "^0.186.0",
     "next": "16.4.0",
     "react": "19.3.0",
     "react-dom": "19.3.0",
@@ -20,8 +20,8 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.4.0",
+    "@types/three": "^0.186.0",
+    "tsx": "^4.20.0",
     "typescript": "^5"
   }
 }

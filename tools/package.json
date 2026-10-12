@@ -1,0 +1,14 @@
+{
+  "name": "gt-tools",
+  "private": true,
+  "type": "module",
+  "description": "Alat bantu (tidak ikut build game): mengoptimasi model mobil .glb",
+  "dependencies": {
+    "@gltf-transform/core": "^4.0.0",
+    "@gltf-transform/extensions": "^4.0.0",
+    "@gltf-transform/functions": "^4.0.0",
+    "draco3dgltf": "^1.5.7",
+    "meshoptimizer": "^0.22.0",
+    "sharp": "^0.33.0"
+  }
+}
